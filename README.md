@@ -1,0 +1,27 @@
+# Custom-Data-YOLOv8-Face-Detection
+
+## Result
+![d41b9bcf-9cd2-4478-9654-e16cc03a8e9a](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/f42eeca7-4d01-4d62-8da2-5af5c9f7fa11)
+
+![confusion_matrix](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/b6a6b4be-20bf-4dc6-8b32-a6ba1b12317d)
+![val_batch2_pred](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/81a041ad-323c-497f-884b-73787426e68c)
+![val_batch2_labels](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/56ae3baf-450d-4fe7-9cef-10bb7e05f034)
+![val_batch1_pred](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/2e455b9c-1ed2-492c-963c-8fdc5041d79a)
+![val_batch1_labels](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/064160c3-add7-4353-b443-d00ef20486bc)
+![val_batch0_pred](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/1dd84cb9-0fa6-4ae8-b984-4d65c47b95b6)
+![val_batch0_labels](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/69962275-a07a-44b9-8507-53aa0843dd39)
+![train_batch12077](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/52701ef6-b909-49d0-9538-4f0eb027f9e5)
+![train_batch12076](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/6cac2653-166e-4c4d-814a-a97f123d4195)
+![train_batch12075](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/8e83208d-12da-4925-820a-0780b3e6fc91)
+![train_batch2](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/c37b42b1-e27e-4e6e-a570-3233d73c5d35)
+![train_batch1](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/d0b8d67f-9fff-48e5-8dd6-064c30434599)
+![train_batch0](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/0b76754e-653a-46c1-a54c-de7a9851f304)
+![results](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/fdb590dc-4d77-4891-a375-9b47f7c12540)
+[results.csv](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/files/12178280/results.csv)
+![R_curve](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/25a232da-ba32-4dbb-afa3-ad594e3b5310)
+![PR_curve](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/efd7f3ee-1543-429f-b12d-631bae265638)
+![P_curve](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/366a13a0-0f2d-4578-80df-b80746372dd6)
+![labels_correlogram](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/738ad6b7-7add-47ad-b07f-fbc9808a29fb)
+![labels](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/1f6c7a29-2403-48df-aa79-731607a1d9c1)
+![F1_curve](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/09c7b121-3255-453b-b450-ef0bd026d1bb)
+![confusion_matrix_normalized](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/a7fac316-18d9-46c9-8dde-6be10386e4b9)
