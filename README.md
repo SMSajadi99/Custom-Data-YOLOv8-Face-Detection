@@ -25,7 +25,7 @@ yolo task=detect mode=train model=yolov8n.pt data=custom.yaml epochs=3 imgsz=640
 
 * `imgsz` = 640 (It can be 320, 416, etc, but make sure it needs to be a multiple of 32)
 
-**Hin**: In the project that I implemented, I implemented it with yolov8s weight. I doubt you can change this weight according to the value of your GPU.
+**Hint**: In the project that I implemented, I implemented it with yolov8s weight. I doubt you can change this weight according to the value of your GPU.
 
 ## Result
 ![d41b9bcf-9cd2-4478-9654-e16cc03a8e9a](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/f42eeca7-4d01-4d62-8da2-5af5c9f7fa11)
