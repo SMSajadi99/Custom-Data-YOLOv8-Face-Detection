@@ -1,4 +1,4 @@
-# Custom-Data-YOLOv8-Face-Detection
+# Custom Data YOLOv8 Face Detection
 
 ## Installation
 YOLOv8 released a package named “ultralytics”, that you can install with the mentioned command below.
