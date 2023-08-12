@@ -55,3 +55,14 @@ yolo task=detect mode=predict model="runs/train/exp/weights/best.pt" source="tes
      └── images (folder including all testing images)
      └── labels (folder including all testing labels)
 ```
+
+```
+path:  /path/to/yolov8/
+train: images/train
+test: images/test
+val: images/valid
+
+#Classes
+names:
+ 0: face
+```
