@@ -1,6 +1,9 @@
 # Custom-Data-YOLOv8-Face-Detection
 
-
+## Installation
+```
+pip install ultralytics
+```
 
 
 ## Result
