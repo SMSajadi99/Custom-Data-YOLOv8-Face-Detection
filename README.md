@@ -43,14 +43,15 @@ yolo task=detect mode=predict model="runs/train/exp/weights/best.pt" source="tes
 
 
 ## Folder structure:
+```
 ├── yolov8
- ## └── train
- ####└── images (folder including all training images)
- ####└── labels (folder including all training labels)
- ## └── test
- ####└── images (folder including all testing images)
- ####└── labels (folder including all testing labels)
- ## └── valid
- ####└── images (folder including all testing images)
- ####└── labels (folder including all testing labels)
-
+    └── train
+     └── images (folder including all training images)
+     └── labels (folder including all training labels)
+    └── test
+     └── images (folder including all testing images)
+     └── labels (folder including all testing labels)
+    └── valid
+     └── images (folder including all testing images)
+     └── labels (folder including all testing labels)
+```
