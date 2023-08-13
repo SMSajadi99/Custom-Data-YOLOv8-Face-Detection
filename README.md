@@ -110,9 +110,6 @@ Now all the items are ready and you can train and test it based on the [General 
 **Hint**: In the `ckpts` folder, I put two sample yolov8 weights based on `yolov8s.pth` and `25` trained epochs numbers that you can use as an evaluation.
 
 ## Result
-![d41b9bcf-9cd2-4478-
+https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/f97dabfd-45db-43ee-b4dc-2d6a637995f2
 
-https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/9a948afb-67a4-4d59-96ee-7b22851af0f1
-
-9654-e16cc03a8e9a](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/f42eeca7-4d01-4d62-8da2-5af5c9f7fa11)
 
