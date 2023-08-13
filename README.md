@@ -6,7 +6,7 @@ The whole structure is divided into 4 parts:
 * Working offline and preparing the dataset from scratch
 * Results
 
-## general process
+## General process
 ### Installation
 YOLOv8 released a package named “ultralytics”, that you can install with the mentioned command below.
 ```python
@@ -47,6 +47,8 @@ yolo task=detect mode=predict model="runs/train/exp/weights/best.pt" source="tes
 ```
 ## Working online
 To work online, open this [code](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/blob/main/Custom_Data_YOLOv8.ipynb) and execute it based on the first part.
+
+## Working offline
 
 ### Folder structure:
 ```python
