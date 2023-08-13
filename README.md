@@ -43,7 +43,7 @@ yolo task=detect mode=predict model="runs/train/exp/weights/best.pt" source="tes
 
 
 ## Folder structure:
-```
+```python
 ├── yolov8
     └── train
      └── images (folder including all training images)
@@ -56,8 +56,8 @@ yolo task=detect mode=predict model="runs/train/exp/weights/best.pt" source="tes
      └── labels (folder including all testing labels)
 ```
 
-```
-path:  /path/to/yolov8/
+```python
+path:  /home/sajadi/anaconda3/envs/YOLOv8/yolov8/
 train: images/train
 test: images/test
 val: images/valid
