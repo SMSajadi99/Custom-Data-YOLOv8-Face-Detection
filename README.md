@@ -50,30 +50,24 @@ To work online, open this [code](https://github.com/SMSajadi99/Custom-Data-YOLOv
 
 ## Working offline
 To prepare the data, you must download the data from the following site and place it in a folder like the following structure:
-‍‍‍```python
+
+```python
 └── Dataset_Orginal
     ├── wider_face_split.zip
     ├── WIDER_test.zip
     ├── WIDER_train.zip
     └── WIDER_val.zip
-‍‍‍```
+```
 Now unzip them and with this code that you have at your disposal, you can have the structure to start training. Run the following code:
+
 ```python
 python Prapertion.py
 ```
 
 ### Folder structure:
+After running the following code, the folder structure should be as follows:
 ```python
-├── yolov8
-    └── train
-     └── images (folder including all training images)
-     └── labels (folder including all training labels)
-    └── test
-     └── images (folder including all testing images)
-     └── labels (folder including all testing labels)
-    └── valid
-     └── images (folder including all testing images)
-     └── labels (folder including all testing labels)
+
 ```
 
 ```python
