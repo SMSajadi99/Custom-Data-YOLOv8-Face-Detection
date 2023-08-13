@@ -49,7 +49,7 @@ yolo task=detect mode=predict model="runs/train/exp/weights/best.pt" source="tes
 To work online, open this [code](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/blob/main/Custom_Data_YOLOv8.ipynb) and execute it based on the first part.
 
 ## Working offline
-To prepare the data, you must download the data from the following site and place it in a folder like the following structure:
+To prepare the data, you must download the data from the following [site](http://shuoyang1213.me/WIDERFACE/) and place it in a folder like the following structure:
 
 ```python
 └── Dataset_Orginal
@@ -58,20 +58,45 @@ To prepare the data, you must download the data from the following site and plac
     ├── WIDER_train.zip
     └── WIDER_val.zip
 ```
-Now unzip them and with this code that you have at your disposal, you can have the structure to start training. Run the following code:
+Now `unzip` them and with this [code](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/blob/main/Prapertion.py) that you have at your disposal, you can have the structure to start training. Run the following code:
 
-```bash
+```python
 python Prapertion.py
 ```
 
 ### Folder structure:
-After running the following code, the folder structure should be as follows:
+After running the following code, the folder structure should be as follows: (It is clear that 3 folders train, valid and test are important.)
 ```python
-
+.
+└── Dataset_Orginal
+    ├── test
+    │   ├── images
+    │   └── labels
+    ├── train
+    │   ├── images
+    │   └── labels
+    ├── valid
+    │   ├── images
+    │   └── labels
+    |
+    .
+    .
+    .
+    |
 ```
-
+Now create a folder called ‍‍`yolov8` and make the previous folders in the following format:
+```
+├── images
+│   ├── test
+│   ├── train
+│   └── valid
+├── labels
+│   ├── train
+│   └── valid
+```
+In the yolov8 folder, create a file named custom.yaml and set the following values in it: (Make sure to set the path according to your folder)
 ```python
-path:  /home/sajadi/anaconda3/envs/YOLOv8/yolov8/
+path:  /<PATH-TO>/yolov8/
 train: images/train
 test: images/test
 val: images/valid
