@@ -94,7 +94,7 @@ Now create a folder called ‍‍`yolov8` and make the previous folders in the f
 │   ├── train
 │   └── valid
 ```
-In the yolov8 folder, create a file named custom.yaml and set the following values in it: (Make sure to set the path according to your folder)
+In the `yolov8` folder, create a file named `custom.yaml` and set the following values in it: (Make sure to set the path according to your folder)
 ```python
 path:  /<PATH-TO>/yolov8/
 train: images/train
@@ -110,5 +110,3 @@ Now all the items are ready and you can train and test it based on the [General 
 ## Result
 ![d41b9bcf-9cd2-4478-9654-e16cc03a8e9a](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/f42eeca7-4d01-4d62-8da2-5af5c9f7fa11)
 
-## Refrence
-http://shuoyang1213.me/WIDERFACE/
