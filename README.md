@@ -60,7 +60,7 @@ To prepare the data, you must download the data from the following site and plac
 ```
 Now unzip them and with this code that you have at your disposal, you can have the structure to start training. Run the following code:
 
-```python
+```bash
 python Prapertion.py
 ```
 
