@@ -1,6 +1,12 @@
-# Custom Data YOLOv8 Face Detection
-## Get start
+# Getting Started
+In this project, we are going to have a simulation about face recognition.
+The whole structure is divided into 4 parts:
+* The general process of working with Yolo version 8
+* Working online
+* Working offline and preparing the dataset from scratch
+* Results
 
+## general process
 ### Installation
 YOLOv8 released a package named “ultralytics”, that you can install with the mentioned command below.
 ```python
@@ -39,9 +45,8 @@ or
 
 yolo task=detect mode=predict model="runs/train/exp/weights/best.pt" source="test.mp4"
 ```
-### Result
-![d41b9bcf-9cd2-4478-9654-e16cc03a8e9a](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/f42eeca7-4d01-4d62-8da2-5af5c9f7fa11)
-
+## Working online
+To work online, open this [code](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/blob/main/Custom_Data_YOLOv8.ipynb) and execute it based on the first part.
 
 ### Folder structure:
 ```python
@@ -67,3 +72,7 @@ val: images/valid
 names:
  0: face
 ```
+
+## Result
+![d41b9bcf-9cd2-4478-9654-e16cc03a8e9a](https://github.com/SMSajadi99/Custom-Data-YOLOv8-Face-Detection/assets/69210109/f42eeca7-4d01-4d62-8da2-5af5c9f7fa11)
+
