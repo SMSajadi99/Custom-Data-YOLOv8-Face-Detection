@@ -85,7 +85,7 @@ After running the following code, the folder structure should be as follows: (It
     |
 ```
 Now create a folder called ‍‍`yolov8` and make the previous folders in the following format:
-```
+```python
 ├── images
 │   ├── test
 │   ├── train
